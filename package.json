@@ -16,7 +16,7 @@
     "@strapi/strapi": "4.0.4",
     "pg": "^8.7.1",
     "sqlite3": "5.0.2",
-    "stylis": "^4.0.13",
+    "stylis": "3.5.4",
     "stylis-plugin-rtl": "^1"
   },
   "author": {
