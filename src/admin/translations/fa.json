@@ -510,7 +510,7 @@
   "content-manager.global.displayedFields": "فیلدهای نمایش داده شده",
   "content-manager.groups": "گروه ها",
   "content-manager.groups.numbered": "گروه ها ({number})",
-  "content-manager.header.name": "Content",
+  "content-manager.header.name": "محتوا",
   "content-manager.link-to-ctb": "ویرایش مدل",
   "content-manager.models": "انواع مجموعه",
   "content-manager.models.numbered": "انواع مجموعه ({number})",
@@ -702,5 +702,10 @@
   "notification.error": "خطایی رخ داده است",
   "notification.error.layout": "خطا در بازیابی طرح",
   "request.error.model.unknown": "این مدل وجود ندارد",
-  "app.utils.delete": "حذف"
+  "app.utils.delete": "حذف",
+  "Id": "آیدی",
+  "Title": "عنوان",
+  "CreatedAt": "تاریخ ایجاد",
+  "UpdatedAt": "تاریخ ویرایش",
+  "Create new entry": "افزودن"
 }

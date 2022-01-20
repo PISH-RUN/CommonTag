@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { StyleSheetManager, createGlobalStyle } from "styled-components";
-import rtlPlugin from "stylis-plugin-rtl";
 import { Components, Fields, Middlewares, Reducers } from './core/apis';
 import { axiosInstance } from './core/utils';
 import appCustomisations from './app';
@@ -68,20 +66,7 @@ const run = async () => {
 
   await app.loadTrads();
 
-  const GlobalStyle = createGlobalStyle`
-  body {
-    direction: ltr;
-  }
-`;
-
-  ReactDOM.render(
-    <StyleSheetManager stylisPlugins={[rtlPlugin]}>
-      <>
-        <GlobalStyle/>
-        {app.render()}
-      </>
-    </StyleSheetManager>
-    , MOUNT_NODE);
+  ReactDOM.render(app.render(), MOUNT_NODE);
 };
 
 run();
