@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "singularName": "content",
+    "pluralName": "contents",
+    "displayName": "content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "book",
+        "movie"
+      ],
+      "required": true
+    },
+    "content_tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::content-tag.content-tag",
+      "mappedBy": "content"
+    }
+  }
+}
