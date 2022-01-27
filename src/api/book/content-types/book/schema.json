@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "book",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "poet": {
+      "type": "string"
+    },
+    "translator": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "publicisedAt": {
+      "type": "datetime"
+    },
+    "wrapperCount": {
+      "type": "integer"
+    },
+    "wrapper": {
+      "type": "integer"
+    },
+    "volume": {
+      "type": "integer"
+    },
+    "readTime": {
+      "type": "integer"
+    },
+    "context": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::context.context",
+      "mappedBy": "book"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}

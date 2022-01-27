@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tag_lists",
+  "info": {
+    "singularName": "tag-list",
+    "pluralName": "tag-lists",
+    "displayName": "tagList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "context_tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::context-tag.context-tag",
+      "inversedBy": "tag_lists"
+    },
+    "parent": {
+      "type": "string"
+    }
+  }
+}

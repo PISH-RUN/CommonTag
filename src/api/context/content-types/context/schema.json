@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contexts",
+  "info": {
+    "singularName": "context",
+    "pluralName": "contexts",
+    "displayName": "context",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "linkType": {
+      "type": "enumeration",
+      "enum": [
+        "movie",
+        "picture"
+      ]
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "boy",
+        "girl",
+        "none"
+      ]
+    },
+    "ageGroup": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two"
+      ]
+    },
+    "summary": {
+      "type": "text"
+    },
+    "hints": {
+      "type": "text"
+    },
+    "context_tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::context-tag.context-tag",
+      "mappedBy": "context"
+    },
+    "book": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::book.book",
+      "inversedBy": "context"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "book",
+        "game",
+        "mentalActivity",
+        "voice",
+        "movie"
+      ]
+    },
+    "titleEn": {
+      "type": "string"
+    }
+  }
+}

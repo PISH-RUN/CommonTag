@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "context_tags",
+  "info": {
+    "singularName": "context-tag",
+    "pluralName": "context-tags",
+    "displayName": "contextTag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "context": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::context.context",
+      "inversedBy": "context_tags"
+    },
+    "tag_lists": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag-list.tag-list",
+      "mappedBy": "context_tags"
+    },
+    "description": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    }
+  }
+}
