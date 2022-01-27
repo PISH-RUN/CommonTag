@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movies",
+  "info": {
+    "singularName": "movie",
+    "pluralName": "movies",
+    "displayName": "movie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "publishDate": {
+      "type": "date"
+    },
+    "time": {
+      "type": "integer"
+    },
+    "genre": {
+      "type": "enumeration",
+      "enum": [
+        "drama",
+        "action",
+        "scienceFiction",
+        "comedy",
+        "other"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}

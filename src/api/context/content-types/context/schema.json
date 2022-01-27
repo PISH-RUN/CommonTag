@@ -15,16 +15,6 @@
     "title": {
       "type": "string"
     },
-    "link": {
-      "type": "string"
-    },
-    "linkType": {
-      "type": "enumeration",
-      "enum": [
-        "movie",
-        "picture"
-      ]
-    },
     "gender": {
       "type": "enumeration",
       "enum": [
@@ -70,6 +60,18 @@
     },
     "titleEn": {
       "type": "string"
+    },
+    "game": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::game.game",
+      "inversedBy": "context"
+    },
+    "links": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::link.link",
+      "mappedBy": "context"
     }
   }
 }

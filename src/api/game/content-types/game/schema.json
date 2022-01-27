@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "singularName": "game",
+    "pluralName": "games",
+    "displayName": "game",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "in",
+        "out"
+      ]
+    },
+    "usersCount": {
+      "type": "integer"
+    },
+    "time": {
+      "type": "integer"
+    },
+    "tools": {
+      "type": "text"
+    },
+    "safetyTips": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "context": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::context.context",
+      "mappedBy": "game"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}

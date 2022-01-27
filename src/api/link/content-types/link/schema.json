@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "links",
+  "info": {
+    "singularName": "link",
+    "pluralName": "links",
+    "displayName": "link"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "movie",
+        "picture"
+      ]
+    },
+    "context": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::context.context",
+      "inversedBy": "links"
+    }
+  }
+}
