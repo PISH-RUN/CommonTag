@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sound",
     "pluralName": "sounds",
-    "displayName": "sound"
+    "displayName": "sound",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -33,6 +34,9 @@
       "relation": "oneToOne",
       "target": "api::context.context",
       "mappedBy": "sound"
+    },
+    "section": {
+      "type": "integer"
     }
   }
 }
