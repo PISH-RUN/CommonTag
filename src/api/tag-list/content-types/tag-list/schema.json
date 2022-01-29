@@ -15,12 +15,6 @@
     "title": {
       "type": "string"
     },
-    "context_tags": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::context-tag.context-tag",
-      "inversedBy": "tag_lists"
-    },
     "parent": {
       "type": "string"
     }

@@ -18,17 +18,14 @@
       "target": "api::context.context",
       "inversedBy": "context_tags"
     },
-    "tag_lists": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::tag-list.tag-list",
-      "mappedBy": "context_tags"
-    },
     "description": {
       "type": "text"
     },
     "description2": {
       "type": "text"
+    },
+    "tags": {
+      "type": "json"
     }
   }
 }
