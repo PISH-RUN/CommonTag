@@ -72,6 +72,18 @@
       "relation": "oneToMany",
       "target": "api::link.link",
       "mappedBy": "context"
+    },
+    "mental_activity": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mental-activity.mental-activity",
+      "inversedBy": "context"
+    },
+    "sound": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sound.sound",
+      "inversedBy": "context"
     }
   }
 }

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sounds",
+  "info": {
+    "singularName": "sound",
+    "pluralName": "sounds",
+    "displayName": "sound"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "narrator": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "time": {
+      "type": "integer"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "context": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::context.context",
+      "inversedBy": "sound"
+    }
+  }
+}

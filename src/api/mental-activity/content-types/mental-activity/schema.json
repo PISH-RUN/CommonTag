@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mental_activities",
+  "info": {
+    "singularName": "mental-activity",
+    "pluralName": "mental-activities",
+    "displayName": "mentalActivity"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tools": {
+      "type": "text"
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "in",
+        "out"
+      ]
+    },
+    "time": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "context": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::context.context",
+      "inversedBy": "mental_activity"
+    }
+  }
+}
