@@ -53,7 +53,7 @@
       "enum": [
         "book",
         "game",
-        "mentalActivity",
+        "mental_activity",
         "voice",
         "movie"
       ]
@@ -83,6 +83,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::sound.sound",
+      "inversedBy": "context"
+    },
+    "movie": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::movie.movie",
       "inversedBy": "context"
     }
   }

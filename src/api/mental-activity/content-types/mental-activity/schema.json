@@ -36,7 +36,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::context.context",
-      "inversedBy": "mental_activity"
+      "mappedBy": "mental_activity"
     }
   }
 }

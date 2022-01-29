@@ -23,8 +23,8 @@
       "enum": [
         "book",
         "game",
-        "activity",
-        "voice",
+        "mentalActivity",
+        "sound",
         "movie"
       ]
     }

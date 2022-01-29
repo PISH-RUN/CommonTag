@@ -35,6 +35,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
+    },
+    "context": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::context.context",
+      "mappedBy": "movie"
     }
   }
 }
