@@ -536,6 +536,7 @@
                                                           }
                                                         }
                                                       },
+                                                      "json": {},
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -665,6 +666,7 @@
                                                           }
                                                         }
                                                       },
+                                                      "json": {},
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -873,6 +875,7 @@
                                                           }
                                                         }
                                                       },
+                                                      "json": {},
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -986,6 +989,7 @@
                                                       "section": {
                                                         "type": "integer"
                                                       },
+                                                      "json": {},
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -1104,6 +1108,7 @@
                                                           }
                                                         }
                                                       },
+                                                      "json": {},
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -2049,6 +2054,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -2178,6 +2184,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -2386,6 +2393,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -2499,6 +2507,7 @@
                                                     "section": {
                                                       "type": "integer"
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -2617,6 +2626,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -3532,6 +3542,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -3661,6 +3672,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -3869,6 +3881,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -3982,6 +3995,7 @@
                                                     "section": {
                                                       "type": "integer"
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -4100,6 +4114,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -4954,6 +4969,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -5083,6 +5099,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -5291,6 +5308,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -5404,6 +5422,7 @@
                                                     "section": {
                                                       "type": "integer"
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -5522,6 +5541,7 @@
                                                         }
                                                       }
                                                     },
+                                                    "json": {},
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"

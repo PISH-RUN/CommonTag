@@ -37,6 +37,9 @@
     },
     "section": {
       "type": "integer"
+    },
+    "json": {
+      "type": "json"
     }
   }
 }

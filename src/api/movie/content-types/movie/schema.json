@@ -41,6 +41,9 @@
       "relation": "oneToOne",
       "target": "api::context.context",
       "mappedBy": "movie"
+    },
+    "json": {
+      "type": "json"
     }
   }
 }

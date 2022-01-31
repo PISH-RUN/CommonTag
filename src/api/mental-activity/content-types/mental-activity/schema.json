@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mental-activity",
     "pluralName": "mental-activities",
-    "displayName": "mentalActivity"
+    "displayName": "mentalActivity",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -37,6 +38,9 @@
       "relation": "oneToOne",
       "target": "api::context.context",
       "mappedBy": "mental_activity"
+    },
+    "json": {
+      "type": "json"
     }
   }
 }
