@@ -24,12 +24,6 @@
       ],
       "required": true
     },
-    "content_tags": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::content-tag.content-tag",
-      "mappedBy": "content"
-    },
     "publisher": {
       "type": "string"
     },

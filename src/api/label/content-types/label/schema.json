@@ -22,12 +22,6 @@
       "relation": "manyToMany",
       "target": "api::tag.tag",
       "mappedBy": "labels"
-    },
-    "content_tags": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::content-tag.content-tag",
-      "mappedBy": "labels"
     }
   }
 }

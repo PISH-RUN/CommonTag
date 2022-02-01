@@ -29,6 +29,16 @@ const database = (env) => ({
         password: env("DATABASE_PASSWORD"),
         ssl: env.bool("DATABASE_SSL", false),
       },
+      "pool": {
+        "min": 0,
+        "max": 500,
+        "idleTimeoutMillis": 300000,
+        "createTimeoutMillis": 300000,
+        "reapIntervalMillis": 300000,
+        "destroyTimeoutMillis": 300000,
+        "createRetryIntervalMillis": 300000,
+        "acquireTimeoutMillis": 300000
+      }
     },
   },
 });
