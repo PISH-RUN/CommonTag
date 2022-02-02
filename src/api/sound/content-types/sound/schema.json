@@ -40,6 +40,12 @@
     },
     "json": {
       "type": "json"
+    },
+    "hints": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::hint.hint",
+      "mappedBy": "sounds"
     }
   }
 }

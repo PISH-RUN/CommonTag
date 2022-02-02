@@ -33,9 +33,6 @@
     "summary": {
       "type": "text"
     },
-    "hints": {
-      "type": "text"
-    },
     "context_tags": {
       "type": "relation",
       "relation": "oneToMany",

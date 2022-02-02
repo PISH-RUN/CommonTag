@@ -41,6 +41,12 @@
     },
     "json": {
       "type": "json"
+    },
+    "hints": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::hint.hint",
+      "mappedBy": "mental_activities"
     }
   }
 }
